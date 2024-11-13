@@ -1,7 +1,5 @@
 FROM openjdk:17-slim
 
-MAINTAINER joao-vitor-moraveis
-
 RUN apt-get update && \
     apt-get install -y curl && \
     rm -rf /var/lib/apt/lists/*
